@@ -1,0 +1,964 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>SLIPPY</title>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <style>
+        body {
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.2s ease 0.2s, visibility 0.2s ease 0.2s;
+        }
+
+        .loaded body {
+            opacity: 1;
+            visibility: visible;
+        }
+    </style>
+    <link rel="stylesheet" href="css/style.min.css?_v=20241025110325" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu-open-bg"></div>
+        <header class="header">
+            <div class="header__container">
+                <div class="header__menu menu">
+                    <button type="button" class="menu__icon icon-menu"><span></span></button>
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="#" data-goto=".about" class="menu__link">About</a>
+                            </li>
+                            <li class="menu__item decor">
+                                <img src="img/slash.svg" alt="Slash" />
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" data-goto=".how" class="menu__link">How to buy?</a>
+                            </li>
+                            <li class="menu__item decor">
+                                <img src="img/slash.svg" alt="Slash" />
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" data-goto=".roadmap" class="menu__link">Roadmap</a>
+                            </li>
+                            <li class="menu__item logo">
+                                <a href="../" class="menu__logo"><img src="img/logo1.png" alt="Logo" /></a>
+                            </li>
+
+                            <li class="menu__item">
+                                <a href="#" data-goto=".tokenomics" class="menu__link">Tokenomics</a>
+                            </li>
+                            <li class="menu__item decor">
+                                <img src="img/slash.svg" alt="Slash" />
+                            </li>
+                            <li class="menu__item">
+                                <a target="_blank" href="#" class="menu__link">Media Pack</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="page">
+            <section class="page__hero hero">
+                <div class="hero__bg bg" data-prlx-mouse data-prlx-cx="1000" data-prlx-cy="2000">
+                    <img src="img/hero/HeroBg21.png" alt="Image" />
+                    <img src="img/hero/HeroBg-Mob.png" alt="Image" />
+                </div>
+                <div class="hero__container">
+                    <div class="hero__content">
+                        <h1 class="hero__title">
+                            <img src="img/hero/t3.png" alt="beep" />
+                        </h1>
+                        <div class="hero__actions">
+                            <div class="hero__social">
+                                <a target="_blank" href="https://x.com/" class="hero__social-item">
+                                    <img src="img/x.svg" alt="Image" />
+                                </a>
+                                <a target="_blank" href="https://t.me/" class="hero__social-item">
+                                    <img src="img/telegram.svg" alt="Image" />
+                                </a>
+                            </div>
+                            <div class="hero__image">
+                                <img src="img/hero/02.gif" alt="Hero animation">
+                            </div>
+                            <div class="hero__social">
+                                <a target="_blank"
+                                    href="https://app.uniswap.org/explore/tokens/ethereum/0x696A1012A7f694a6F34a95872f806edA633eA463"
+                                    class="hero__social-item">
+                                    <img src="img/uniswap-uni-logo.png" alt="Image" />
+                                </a>
+                                <a target="_blank"
+                                    href="https://www.dextools.io/app/en/ether/pair-explorer/0x79e7140f2d1b08b9e44468ae9ad830301d04596a?t=1752973406619"
+                                    class="hero__social-item">
+                                    <img src="img/dextools.svg" alt="Image" />
+                                </a>
+                                <a target="_blank" href="#" class="hero__social-item">
+                                    <img src="img/CoinGecko_logo.png" alt="Image" />
+                                </a>
+                            </div>
+
+                            <!-- <div class="hero__button-box">
+                                <a target="_blank" href="#" class="hero__button button">
+                                    <i></i>
+                                    <span>Beep</span>
+                                </a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="page__line line">
+                <div class="line__row">
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                </div>
+                <div class="line__row">
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                </div>
+            </div>
+            <section class="page__about about" data-watch="navigator">
+                <div class="about__container">
+                    <div class="about__content" data-watch-threshold="0.7" data-watch-once data-watch>
+                        <h2 class="about__title title" data-watch-threshold="0.85" data-watch-once data-watch>
+                            About
+                        </h2>
+                        <div class="about__text" data-watch-threshold="0.7" data-watch-once data-watch>
+                            <p>Meet Slippy</p>
+                            <p>
+                                Slippy, the energetic frog created by Matt Furie, stars in Double Fried—his own chaotic
+                                adult animated series. Known for his wild antics and relentless optimism, Slippy
+                                navigates absurd misadventures, from cooking disasters to bizarre encounters, all with
+                                fast-paced humor and surreal twists.
+
+
+
+
+
+                            </p>
+                            <p>
+                                The show balances zany comedy with heartfelt
+                                moments, making Slippy Furie’s most iconic character. Double Fried stands out with
+                                vibrant animation, clever gags, and Slippy’s infectious charm.
+                            </p>
+                        </div>
+                        <!-- <div
+                class="about__button-box"
+                data-watch-threshold="1"
+                data-watch-once
+                data-watch>
+                <a href="#" class="about__button button">
+                  <i></i>
+                  <span>Beep</span>
+                </a>
+              </div> -->
+                    </div>
+                    <div class="about__image">
+                        <video muted autoplay loop src="img/about/IMG_7795.MP4"></video>
+                        <video playsinline muted autoplay loop type="video/quicktime"
+                            src="img/about/IMG_7795.MP4"></video>
+                    </div>
+                </div>
+            </section>
+            <section class="page__how how" data-watch="navigator">
+                <div class="how__container">
+                    <div class="how__arrow">
+                        <img src="img/how/arrow.png" alt="Image" />
+                    </div>
+                    <h2 class="how__title title" data-watch-threshold="0.85" data-watch-once data-watch>
+                        How to buy?
+                    </h2>
+                    <div class="how__items">
+                        <div class="how__item item-how">
+                            <div class="item-how__bg bg">
+                                <img src="img/how/Box.png" alt="Image" />
+                                <img src="img/how/Button.png" alt="Image" />
+                            </div>
+                            <div class="item-how__content">
+                                <h3 class="item-how__title">Create a Wallet</h3>
+                                <div class="item-how__body">
+                                    <div class="item-how__image">
+                                        <img src="img/how/download.png">
+                                    </div>
+                                    <p class="item-how__text">
+                                        Download Metamask or your favorite wallet from the App Store or Google Play
+                                        Store. For desktop, download the google chrome extension :
+                                        <a target="_blank" href="https://metamask.io">https://metamask.io</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="how__item item-how">
+                            <div class="item-how__bg bg">
+                                <img src="img/how/Box.png" alt="Image" />
+                                <img src="img/how/Button.png" alt="Image" />
+                            </div>
+                            <div class="item-how__content">
+                                <h3 class="item-how__title">Get some ETH</h3>
+                                <div class="item-how__body">
+                                    <div class="item-how__image">
+                                        <img src="img/how/images.png">
+                                    </div>
+                                    <p class="item-how__text">
+                                        You need ETH in your wallet to switch to $SLIPPY. You can buy ETH from an
+                                        exchange
+                                        or cross chain swap and send it to your wallet.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="how__item item-how">
+                            <div class="item-how__bg bg">
+                                <img src="img/how/Box.png" alt="Image" />
+                                <img src="img/how/Button.png" alt="Image" />
+                            </div>
+                            <div class="item-how__content">
+                                <h3 class="item-how__title">Go to Uniswap</h3>
+                                <div class="item-how__body">
+                                    <div class="item-how__image">
+                                        <img src="img/how/uni.png">
+                                    </div>
+                                    <p class="item-how__text">
+                                        Go
+                                        <a target="_blank" href="https://app.uniswap.org">https://app.uniswap.org</a> in
+                                        google chrome
+                                        or on the browser inside your Metamask Wallet. Connect your wallet.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="how__item item-how">
+                            <div class="item-how__bg bg">
+                                <img src="img/how/Box.png" alt="Image" />
+                                <img src="img/how/Button.png" alt="Image" />
+                            </div>
+                            <div class="item-how__content">
+                                <h3 class="item-how__title">Swap ETH for SLIPPY</h3>
+                                <div class="item-how__body">
+                                    <div class="item-how__image">
+                                        <img src="img/how/139.png">
+                                    </div>
+                                    <p class="item-how__text">
+                                        Paste the $SLIPPY token address into Uniswap and confirm the swap. When Phantom
+                                        prompts you for a wallet signature, sign. Swap ETH for $SLIPPY
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="page__line line">
+                <div class="line__row">
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                </div>
+                <div class="line__row">
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                </div>
+            </div>
+            <!-- <section class="page__roadmap roadmap" data-watch="navigator">
+                <div class="roadmap__bg bg">
+                    <img src="img/roadmap/RoadmapBG.jpg" alt="Image" />
+                </div>
+                <div class="roadmap__container">
+                    <div class="roadmap__item item-roadmap">
+                        <div class="item-roadmap__bg">
+                            <img src="img/roadmap/GameBoyDesktop.png" alt="Image" />
+                            <img src="img/roadmap/GameBoyMob.png" alt="Image" />
+                        </div>
+                        <div class="item-roadmap__body">
+                            <div class="item-roadmap__display display-roadmap">
+                                <div class="display-roadmap__bg">
+                                    <img src="img/roadmap/Screen.png" alt="Image" />
+                                    <img src="img/roadmap/ScreenMob.png" alt="Image" />
+                                </div>
+                                <div class="display-roadmap__items">
+                                    <div class="display-roadmap__item active">
+                                        <h3>Roadmap</h3>
+                                        <div>
+                                            <video muted autoplay loop src="img/roadmap/01.webm"></video>
+                                            <video class="video2" playsinline muted autoplay loop type="video/quicktime"
+                                                src="img/roadmap/01.mov"></video>
+                                        </div>
+                                    </div>
+                                    <div class="display-roadmap__item">
+                                        <h3>Start the movement</h3> -->
+            <!-- <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Etiam eu turpis molestie, Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Etiam eu turpis molestie,
+                      </p> -->
+            <!-- </div>
+                                    <div class="display-roadmap__item">
+                                        <h3>beep Everywhere - launch</h3> -->
+            <!-- <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Etiam eu turpis molestie, Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                      </p> -->
+            <!-- </div>
+                                    <div class="display-roadmap__item">
+                                        <h3>beep Everything - launch</h3> -->
+            <!-- <p>
+                        Lorem ipsum dolor sit adipiscing elit. Etiam eu turpis
+                        molestie, Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Etiam eu turpis molestie,
+                      </p> -->
+            <!-- </div>
+                                    <div class="display-roadmap__item">
+                                        <h3>Global takeover</h3> -->
+            <!-- <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Etiam eu turpis molestie, ipsum dolor sit amet,
+                        consectetur adipiscing elit. Etiam eu turpis molestie,
+                      </p> -->
+            <!-- </div>
+                                </div>
+                            </div>
+                            <div class="item-roadmap__buttons">
+                                <div class="item-roadmap__button">
+                                    <button type="button">
+                                        <img src="img/roadmap/btn.png" alt="Image" />
+                                        <img src="img/roadmap/btn-active.png" alt="Image" />
+                                    </button>
+                                    <span>Step 1</span>
+                                </div>
+                                <div class="item-roadmap__button">
+                                    <button type="button">
+                                        <img src="img/roadmap/btn.png" alt="Image" />
+                                        <img src="img/roadmap/btn-active.png" alt="Image" />
+                                    </button>
+                                    <span>Step 2</span>
+                                </div>
+                                <div class="item-roadmap__button">
+                                    <button type="button">
+                                        <img src="img/roadmap/btn.png" alt="Image" />
+                                        <img src="img/roadmap/btn-active.png" alt="Image" />
+                                    </button>
+                                    <span>Step 3</span>
+                                </div>
+                                <div class="item-roadmap__button">
+                                    <button type="button">
+                                        <img src="img/roadmap/btn.png" alt="Image" />
+                                        <img src="img/roadmap/btn-active.png" alt="Image" />
+                                    </button>
+                                    <span>Step 4</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+            <!-- <div class="page__line line">
+                <div class="line__row">
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                </div>
+                <div class="line__row">
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                </div>
+            </div> -->
+            <section class="page__tokenomics tokenomics" data-watch="navigator">
+                <div class="tokenomics__bg">
+                    <img src="img/tokenomics/BG.png" alt="Image" />
+                    <img src="img/tokenomics/BG.png" alt="Image" />
+                    <img src="img/tokenomics/BG.png" alt="Image" />
+                    <span></span>
+                </div>
+                <div class="tokenomics__wind"></div>
+                <div class="tokenomics__container">
+                    <h2 class="tokenomics__title title" data-watch-threshold="0.85" data-watch-once data-watch>
+                        TOKENOMICS
+                    </h2>
+                    <div class="tokenomics__body body-tokenomics">
+                        <div class="body-tokenomics__bg">
+                            <img src="img/tokenomics/01.png" alt="Image" />
+                        </div>
+                        <div class="body-tokenomics__item">
+                            <span><span>$</span>SLIPPY</span>
+                            <!-- <span>Lorem Ipus</span> -->
+                        </div>
+                        <div class="body-tokenomics__item">
+                            <span>1,000,000,000</span>
+                            <span>Token Supply</span>
+                        </div>
+                        <div class="body-tokenomics__item">
+                            <span>0<span>%</span></span>
+                            <span>Buy/Sell Tax</span>
+                        </div>
+                        <div class="body-tokenomics__item">
+                            <span>100<span>%</span></span>
+                            <span>LP</span>
+                        </div>
+                        <div class="body-tokenomics__ca">
+                            <span>CA</span>
+                            <span>0x69....ea463</span>
+                            <button class="copy-ca-btn">
+                                <img src="img/tokenomics/copy.svg" alt="" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__beeple beeple">
+                <div class="beeple__top top-beeple">
+                    <div class="top-beeple__container">
+                        <div class="top-beeple__body">
+                            <div class="top-beeple__image">
+                                <img src="img/beeple/star.png" alt="Star" />
+                            </div>
+                            <div class="top-beeple__image">
+                                <img src="img/beeple/t3.png" alt="Beeple" />
+                            </div>
+                            <div class="top-beeple__image">
+                                <img src="img/beeple/dec1.png" alt="Image" />
+                            </div>
+                            <div class="top-beeple__image">
+                                <img src="img/beeple/dec2.png" alt="Image" />
+                            </div>
+                            <div class="top-beeple__image">
+                                <img src="img/beeple/dec3.png" alt="Image" />
+                            </div>
+                            <div class="top-beeple__image">
+                                <img src="img/beeple/dec4.png" alt="Image" />
+                            </div>
+                            <div class="top-beeple__image">
+                                <img src="img/beeple/dec5.png" alt="Image" />
+                            </div>
+                            <div class="top-beeple__image">
+                                <img src="img/beeple/item11.jpg" alt="Image" />
+                            </div>
+                            <div class="top-beeple__image">
+                                <img src="img/beeple/item12.jpg" alt="Image" />
+                            </div>
+                            <div class="top-beeple__image">
+                                <img src="img/beeple/item13.jpg" alt="Image" />
+                            </div>
+                            <div class="top-beeple__image">
+                                <img src="img/beeple/item14.jpg" alt="Image" />
+                            </div>
+                            <div class="top-beeple__image">
+                                <img src="img/beeple/item11.jpg" alt="Image" />
+                            </div>
+                            <div class="top-beeple__image">
+                                <img src="img/beeple/item13.jpg" alt="Image" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="beeple__bottom bottom-beeple">
+                    <div class="bottom-beeple__items">
+                        <div class="bottom-beeple__row">
+                            <div class="bottom-beeple__item">
+                                <img src="img/beeple/i1.jpg" alt="Image" />
+                            </div>
+                            <div class="bottom-beeple__item">
+                                <img src="img/beeple/i2.jpg" alt="Image" />
+                            </div>
+                            <div class="bottom-beeple__item">
+                                <img src="img/beeple/i3.jpg" alt="Image" />
+                            </div>
+                            <div class="bottom-beeple__item">
+                                <img src="img/beeple/i4.jpg" alt="Image" />
+                            </div>
+                            <div class="bottom-beeple__item">
+                                <img src="img/beeple/i6.jpg" alt="Image" />
+                            </div>
+                        </div>
+                        <div class="bottom-beeple__row">
+                            <div class="bottom-beeple__item">
+                                <img src="img/beeple/i7.jpg" alt="Image" />
+                            </div>
+                            <div class="bottom-beeple__item">
+                                <img src="img/beeple/i1.jpg" alt="Image" />
+                            </div>
+                            <div class="bottom-beeple__item">
+                                <img src="img/beeple/i3.jpg" alt="Image" />
+                            </div>
+                            <div class="bottom-beeple__item">
+                                <img src="img/beeple/i2.jpg" alt="Image" />
+                            </div>
+                            <div class="bottom-beeple__item">
+                                <img src="img/beeple/i6.jpg" alt="Image" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="page__line line">
+                <div class="line__row">
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                </div>
+                <div class="line__row">
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                </div>
+            </div>
+            <section class="page__money money">
+                <!-- <div class="money__bg"> -->
+                <!-- <img src="img/money/bg.jpg" alt="Image" /> -->
+                <!-- <img src="img/money/bg-mob.jpg" alt="Image" /> -->
+                <!-- </div> -->
+                <div class="money__container">
+                    <div class="money__content-with-image">
+                        <div class="money__content">
+
+                            <h2 class="money__title title" data-watch-threshold="0.85" data-watch-once data-watch>
+                                SLIPPY <br /> ART
+                            </h2>
+                            <!-- <div class="money__items" data-watch-threshold="0.85" data-watch-once data-watch>
+                                <div class="money__item">
+                                    <span>beep</span>
+                                    <div>
+                                        <img src="img/money/01.svg" alt="Icon" />
+                                        <span>Banks</span>
+                                    </div>
+                                </div>
+                                <div class="money__item">
+                                    <span>beep</span>
+                                    <div>
+                                        <img src="img/money/02.svg" alt="Icon" />
+                                        <span>Governments</span>
+                                    </div>
+                                </div>
+                                <div class="money__item">
+                                    <span>beep</span>
+                                    <div>
+                                        <img src="img/money/03.svg" alt="Icon" />
+                                        <span>Poverty</span>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <div class="money__text">
+                                <p data-watch-threshold="0.85" data-watch-once data-watch>
+                                    Step into the high-energy, delightfully absurd world of Slippy with “Doble Fried”,
+                                    Matt Furie’s first and only fully animated TV-style episode starring his iconic
+                                    amphibian. It's a wild, surreal ride built to captivate fans of underground cartoon
+                                    art and quirky humor.
+                                </p>
+                                <p data-watch-threshold="0.85" data-watch-once data-watch>
+                                    Furie’s Animated Debut: This full episode marks Matt Furie’s first deep dive into
+                                    animation as a creator, showcasing his skill at bringing characters to life beyond
+                                    print or still imagery.
+
+                                    Character Evolution: Slippy steps out from behind the page and becomes a dynamic
+                                    presence, making gestures, expressions, and comedic timing integral to his charm.
+
+                                    Genre Fusion: Combines underground comic sensibilities with mainstream animation
+                                    energy, appealing to both alt-art purists and casual viewers.
+                                </p>
+                                <p data-watch-threshold="0.85" data-watch-once data-watch>
+                                    “Slippy is the main frog starring in Matt Furie’s ONLY animated TV show.”
+                                </p>
+                            </div>
+                        </div>
+                        <iframe width="700" height="767" src="https://www.youtube.com/embed/1Cu5TFmGO2w"
+                            title="Lost Matt Furie Tv Show &quot;Dobled Fried&quot; Starring $SLIPPY As The Main Frog."
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </section>
+            <div class="page__line line">
+                <div class="line__row">
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                </div>
+                <div class="line__row">
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                </div>
+            </div>
+            <section class="page__links links">
+                <div class="links__container">
+                    <div class="links__image">
+                        <img src="img/links/item12.png" alt="Image" />
+                    </div>
+                    <div class="links__body">
+                        <!-- <div class="links__body-top">
+                            <img src="img/links/top.png" alt="Image" />
+                        </div> -->
+                        <div class="links__body-buttons">
+                            <a target="_blank" href="https://t.me/Slippyerc20" class="links__body-button">
+                                <img src="img/links/btn1.png" alt="Icon" />
+                                <span>Telegram</span>
+                            </a>
+                            <a target="_blank" href="https://x.com/Slippy_token" class="links__body-button">
+                                <img src="img/links/btn2.png" alt="Icon" />
+                                <span>X.com</span>
+                            </a>
+                            <a target="_blank" href="#" class="links__body-button">
+                                <img src="img/links/btn3.png" alt="Icon" />
+                                <span>CoinMarketCap</span>
+                            </a>
+                            <a target="_blank"
+                                href="https://www.dextools.io/app/en/ether/pair-explorer/0x79e7140f2d1b08b9e44468ae9ad830301d04596a?t=1753061077064"
+                                class="links__body-button">
+                                <img src="img/links/btn4.png" alt="Icon" />
+                                <span>DEXTools</span>
+                            </a>
+                            <a target="_blank"
+                                href="https://dexscreener.com/ethereum/0x79e7140f2d1b08b9e44468ae9ad830301d04596a"
+                                class="links__body-button">
+                                <img src="img/links/btn5.png" alt="Icon" />
+                                <span>DEXScreener</span>
+                            </a>
+                            <a target="_blank" href="https://www.coingecko.com/en/coins/slippy"
+                                class="links__body-button">
+                                <img src="img/links/btn6.png" alt="Icon" />
+                                <span>CoinGecko</span>
+                            </a>
+                            <!-- <a target="_blank" href="https://www.mexc.com/exchange/BEEP_USDT"
+                                class="links__body-button">
+                                <img src="img/links/btn7.png" alt="Icon" />
+                                <span>MEXC</span>
+                            </a> -->
+                            <a target="_blank"
+                                href="https://app.uniswap.org/explore/tokens/ethereum/0x696A1012A7f694a6F34a95872f806edA633eA463"
+                                class="links__body-button">
+                                <img src="img/links/139.png" alt="Icon" />
+                                <span>Buy $SLIPPY</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="page__line line">
+                <div class="line__row">
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                </div>
+                <div class="line__row">
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                </div>
+            </div>
+            <section class="page__join join">
+                <div class="join__bg bg">
+                    <img src="img/join/Grass.jpg" alt="Image" />
+                    <img src="img/join/GrassMob.jpg" alt="Image" />
+                </div>
+                <div class="join__container">
+                    <div class="join__headphones">
+                        <img src="img/join/headphones.png" alt="Image" />
+                    </div>
+                    <div class="join__body">
+                        <div class="join__main">
+                            <div class="join__main-bg">
+                                <img src="img/join/join.png" alt="Image" />
+                            </div>
+                            <h3 class="join__main-title">Join us</h3>
+                            <div class="join__main-social">
+                                <a target="_blank" href="https://x.com/Slippy_token" class="join__main-social-item">
+                                    <img src="img/x.svg" alt="Logo" />
+                                </a>
+                                <a target="_blank" href="https://t.me/Slippyerc20" class="join__main-social-item">
+                                    <img src="img/telegram.svg" alt="Logo" />
+                                </a>
+                            </div>
+                        </div>
+                        <a target="_blank"
+                            href="https://app.uniswap.org/explore/tokens/ethereum/0x696A1012A7f694a6F34a95872f806edA633eA463"
+                            class="join__button">
+                            <img src="img/join/139.png" alt="Button" />
+                        </a>
+                    </div>
+                    <div class="join__body-mob body-mob">
+                        <div class="body-mob__player">
+                            <div class="body-mob__player-bg">
+                                <img src="img/join/01.png" alt="Image" />
+                            </div>
+                            <div class="body-mob__player-social">
+                                <a href="https://x.com/Slippy_token" class="body-mob__player-social-item">
+                                    <img src="img/x.svg" alt="Logo" />
+                                </a>
+                                <a href="https://t.me/Slippyerc20" class="body-mob__player-social-item">
+                                    <img src="img/telegram.svg" alt="Logo" />
+                                </a>
+                            </div>
+                        </div>
+                        <a href="#" target="_blank" class="body-mob__button">
+                            <img src="img/join/139.png" alt="" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <div class="page__line line">
+                <div class="line__row">
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                </div>
+                <div class="line__row">
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                    <span>SLIPPY</span>
+                    <img src="img/logo1.png" alt="Image" />
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__top">
+                <div class="footer__container">
+                    <div class="footer__body">
+                        <div class="footer__left">
+                            <div class="footer__menu">
+                                <div class="footer__column">
+                                    <a href="#" data-goto=".about" class="footer__menu-item">About</a>
+                                    <a href="#" data-goto=".how" class="footer__menu-item">How to buy?</a>
+                                </div>
+                                <div class="footer__column">
+                                    <a href="#" data-goto=".money" class="footer__menu-item">SLIPPY ART</a>
+                                    <a href="#" data-goto=".tokenomics" class="footer__menu-item">Tokenomics</a>
+                                </div>
+                            </div>
+                            <div class="footer__social">
+                                <a target="_blank" href="https://x.com/Slippy_token" class="footer__social-item">
+                                    <img src="img/x.svg" alt="Image" />
+                                </a>
+                                <a target="_blank" href="https://t.me/Slippyerc20" class="footer__social-item">
+                                    <img src="img/telegram.svg" alt="Image" />
+                                </a>
+                                <a target="_blank"
+                                    href="https://app.uniswap.org/explore/tokens/ethereum/0x696A1012A7f694a6F34a95872f806edA633eA463"
+                                    class="footer__social-item">
+                                    <img src="img/uniswap-uni-logo.png" alt="Image" />
+                                </a>
+                                <a target="_blank"
+                                    href="https://dexscreener.com/ethereum/0x79e7140f2d1b08b9e44468ae9ad830301d04596a"
+                                    class="footer__social-item">
+                                    <img src="img/dex.png" alt="Image" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer__image">
+                            <video autoplay muted loop src="img/footer/05.webm"></video>
+                            <video playsinline muted autoplay loop type="video/quicktime"
+                                src="img/footer/05.webm"></video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__container">
+                    <div class="footer__bottom-left">2025 © ALL RIGHTS RESERVED</div>
+                    <div class="footer__bottom-text">
+
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <script src="js/app.min.js?_v=20241025110325"></script>
+    <!-- <script src="js/demo.js"></script> -->
+</body>
+
+</html>

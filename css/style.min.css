@@ -2833,10 +2833,13 @@ body {
     aspect-ratio: 16 / 9;
 }
 
-.money__video iframe {
+.iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    border-radius: 8px;
+    margin: 0;
 }
 
 
@@ -3232,14 +3235,7 @@ body {
     transform: translateX(4%) translateY(-18%)
 }
 
-.iframe {
-    max-width: 100%;
-    height: auto;
-    aspect-ratio: 9 / 10;
-    /* or use 16 / 9 for widescreen */
-    display: block;
-    margin: 0 auto;
-}
+
 
 
 .body-mob__button::before {

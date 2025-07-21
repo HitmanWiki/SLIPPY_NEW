@@ -3232,6 +3232,16 @@ body {
     transform: translateX(4%) translateY(-18%)
 }
 
+.iframe {
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 9 / 10;
+    /* or use 16 / 9 for widescreen */
+    display: block;
+    margin: 0 auto;
+}
+
+
 .body-mob__button::before {
     pointer-events: none;
     content: "";
